@@ -3087,8 +3087,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  background-color:  #337ab7;
+  border-color:  #2e6da4;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -3123,13 +3123,60 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #337ab7;
+  background-color:#337ab7;
   border-color: #2e6da4;
 }
 .btn-primary .badge {
   color: #337ab7;
   background-color: #fff;
 }
+/*my own button*/
+.btn-sigma {
+  color: #fff;
+  background-color: #ffd700;/* #337ab7;*/
+  border-color:  #ffcc00;/*#2e6da4;*/
+}
+.btn-sigma:hover,
+.btn-sigma:focus,
+.btn-sigma.focus,
+.btn-sigma:active,
+.btn-sigma.active,
+.open > .dropdown-toggle.btn-sigma {
+  color: #fff;
+  background-color: #e5c100;
+  border-color: #ccac00;
+}
+.btn-sigma:active,
+.btn-sigma.active,
+.open > .dropdown-toggle.btn-sigma {
+  background-image: none;
+}
+.btn-sigma.disabled,
+.btn-sigma[disabled],
+fieldset[disabled] .btn-sigma,
+.btn-sigma.disabled:hover,
+.btn-sigma[disabled]:hover,
+fieldset[disabled] .btn-sigma:hover,
+.btn-sigma.disabled:focus,
+.btn-sigma[disabled]:focus,
+fieldset[disabled] .btn-sigma:focus,
+.btn-sigma.disabled.focus,
+.btn-sigma[disabled].focus,
+fieldset[disabled] .btn-sigma.focus,
+.btn-sigma.disabled:active,
+.btn-sigma[disabled]:active,
+fieldset[disabled] .btn-sigma:active,
+.btn-sigma.disabled.active,
+.btn-sigma[disabled].active,
+fieldset[disabled] .btn-sigma.active {
+  background-color:  #ffd700;
+  border-color: #ffcc00;
+}
+.btn-sigma .badge {
+  color: #ffd700;
+  background-color: #fff;
+}
+/*end of buton*/
 .btn-success {
   color: #fff;
   background-color: #5cb85c;

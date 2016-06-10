@@ -74,7 +74,7 @@ hr {
 .brand-name {/* welcome to text*/
     margin: 0;
     font-size: 4em;
-    color: goldenrod;
+    color: #ffd700;/*goldenrod;*/
 }
 
 .tagline-divider {
@@ -131,7 +131,7 @@ footer p {
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
-        color: goldenrod;
+        color: #ffd700/*goldenrod;*/
     }
 
     .top-divider {
